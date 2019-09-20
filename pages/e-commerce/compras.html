@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+    <title>Compras</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/autocomplete.js"></script>
+    <script src="js/calculos.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos_compras.css">
+    
+</head>
+ 
+<body>
+    <header>
+      <div class="header1">
+        <a href="index.html"><img  src="img/logo.png"></a>
+      </div>
+      <div class="header2">
+        <input  type="search" placeholder="Buscar productos" id="tags">
+      </div>
+      <div class="header3">
+        <a href="compras.html"><img  src="img/carrito.jpg"></a>
+        <spam class="contador">5</spam>
+      </div>
+      <div class="clear"></div>
+    </header>
+    <nav class="menu-superior">
+        <ul>
+            <li><a href="index.html">&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="descripcion.html">Producto</a></li>
+            <li><a class="active" href="compras.html">Compras</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+           <article class="compras">
+               <div class="Table">
+                     <div class="Title">
+                        FINALIZAR COMPRA
+                    </div>  
+                    <div class="Heading">  
+                        <div class="Cell First">
+                            <p>Descripcion</p>  
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p>Precio Unitario</p>  
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p>Cantidad</p>  
+                        </div>  
+          
+                        <div class="Cell">  
+                            <p>Total</p>  
+                        </div>  
+                    </div>  
+          
+                    <div class="Row">  
+                        <div class="Cell">  
+                            <i>Mother Msi A68hm-e33</i>
+                        </div>  
+          
+                        <div class="Cell">  
+                            <p>$ <input type="text" id="precio1" value=1200 disabled></p>  
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p><input type="number" id="cant1" min=1></p>  
+                        </div> 
+        
+                        <div class="Cell">  
+                            <p id="subtotal1"></p>  
+                        </div>
+                    </div>
+                   
+                   <div class="Row">  
+                        <div class="Cell">  
+                            <i>Micro Amd Apu A4-4000</i>  
+                        </div>  
+          
+                        <div class="Cell">  
+                            <p>$ <input id="precio2" value=800 disabled></p>  
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p><input type="number" id="cant2" min=1></p>
+                        </div> 
+        
+                        <div class="Cell">  
+                            <p id="subtotal2"></p>  
+                        </div>
+                    </div>  
+                   
+                   <div class="Row">  
+                        <div class="Cell">  
+                            <i>Memoria RAM 4 GB</i>  
+                        </div>  
+          
+                        <div class="Cell">  
+                            <p>$ <input id="precio3" value=800 disabled></p>  
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p><input type="number" id="cant3" min=1></p>  
+                        </div> 
+        
+                        <div class="Cell">  
+                            <p id="subtotal3"></p> 
+                        </div>
+                    </div>  
+                   
+                   <div class="Row">  
+                        <div class="Cell">  
+                            <i>Pendrive HP 16GB </i>  
+                        </div>  
+          
+                        <div class="Cell">  
+                            <p>$ <input id="precio4" value=215 disabled></p>
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p><input type="number" id="cant4" min=1></p>
+                        </div> 
+        
+                        <div class="Cell">  
+                            <p id="subtotal4"></p>  
+                        </div>
+                    </div>  
+                   
+                   <div class="Row">  
+                        <div class="Cell">  
+                            <i>Kaspersky Antivirus 2017</i>  
+                        </div>  
+          
+                        <div class="Cell">  
+                            <p>$ <input id="precio5" value=450 disabled></p>
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p><input type="number" id="cant5" min=1></p> 
+                        </div> 
+        
+                        <div class="Cell">  
+                            <p id="subtotal5"></p> 
+                        </div>
+                    </div>  
+          
+                    <div class="Row">  
+                        <div class="Cell">  
+                            <p></p>  
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p></p>  
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p></p>  
+                        </div>  
+        
+                        <div class="Cell">  
+                            <p id="total"></p>  
+                        </div>
+                    </div> 
+              </div>
+               <div class="Botones">
+                    <a class="finalizar" href="#">Finalizar compra</a>
+                    <a class="carrito" href="index.html">Seguir comprando</a>
+               </div>
+           </article>
+            
+        </section>
+    </main>
+    
+    <!--
+    <aside>
+       <h3>Titulo de contenido</h3>
+           <p>contenido</p>
+    </aside>
+  -->
+  <div class="clear"></div>
+  <footer class="footer">
+
+      <div class="footer1">
+        Lun a Vie 8 a 18 hs<br>
+        S&aacute;bados  9 a 14 hs<br>
+        Florencio Varera 1903
+      </div>
+     
+      <div class="footer3">
+        <a href="#" class="arriba"><img src="img/facebook.png"></a>
+        <a href="#" class="arriba"><img src="img/twitter.png"></a>
+        <a href="#" class="arriba"><img src="img/google.png"></a>
+      </div>
+
+      <div class="footer2">    
+        <nav class="menu-inferior">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="descripcion.html">Producto</a></li>
+            <li><a href="compras.html">Compras</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="clear"></div>
+  </footer>
+</body>
+</html>

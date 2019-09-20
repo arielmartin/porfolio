@@ -1,0 +1,269 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+
+.header1{
+
+	width: 25%;
+	float: left;
+	text-align: center;
+    box-sizing: border-box;
+}
+.header2{
+	
+	width: 50%;
+	float: left;
+	text-align: center;
+    box-sizing: border-box;
+}
+.header3{
+	
+	width: 25%;
+	float: left;
+	text-align: center;
+    box-sizing: border-box;
+          
+}
+
+.header2 input{
+	padding: 8px;
+	margin-top: 4em;
+	width: 70%;
+	border-radius: 10px;
+}
+
+.contenedor{
+	width: 100%;
+	margin: auto;
+}
+.error p{
+	color: red;
+}
+.ancho{
+	width: 90%;
+	margin: 10px;
+	padding: 10px;
+}
+textarea.ancho{
+    width: 90%;
+    min-height:6em; 
+}
+.float .finalizar{
+        margin-right: 6%;
+    }
+ .float h2{
+ 	width: 100%;
+ }
+.img1{
+	width: 100%;
+}
+.img2{
+	position: relative;
+	left: 50;
+	margin: 0px;
+}
+_textarea{
+	min-height: 100px;
+	max-height: 100px;
+	min-width: 410px;
+	max-width: 410px;
+}
+.mapa{
+	width: 100%;
+    text-align: center;
+}
+
+/*estilos main generales (movile)*/
+main img{
+	max-width: 100%;
+	height: auto;
+}
+article{
+	border:solid blue 1px;
+	box-sizing: border-box;
+	max-width: 100%;
+    position:relative;
+}
+article p{
+	border: 2px solid #ccc;
+}
+.producto{
+    border:1px solid #b2b2b2;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    box-sizing: border-box;
+}
+.producto p{
+	text-align: left;
+}
+
+
+.float{
+	//float: left;
+	border: 1px solid #ccc;
+	width: 80%;
+    margin: auto;
+    margin-bottom: 1em;
+	padding-bottom: 1em;
+    border-radius: 1em;
+}
+
+.float h2{
+	background: #2387bc;
+	color: #fff;
+}
+
+.float p{
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 0.5em;
+}
+
+.float span{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/*estilos footer generales (movile)*/
+footer{
+	background-color: ;
+}
+footer nav{
+	margin: 1em;
+}
+.footer1{
+
+	width: 30%;
+	float: left;
+	text-align: left;
+	margin: 1%;
+    box-sizing: border-box;
+}
+.footer2{
+	
+	width: 36%;
+	float: left;
+	text-align: center;
+	margin: 1% 0;
+    box-sizing: border-box;
+}
+.footer3{
+
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin: 1%;
+    box-sizing: border-box;
+}
+img.footer3{
+    width:1px; 
+}
+.clear{
+	clear:both;
+}
+.sumar{
+    position:absolute;
+    top:1px;
+    right: 1px;
+    width:8em;
+}
+/*estilos main tablet*/
+@media screen and (min-width:47em){
+    body{ 
+        font-size:80%; 
+   } 
+   header img{
+	max-width: 70%;
+	}
+   article{
+		width: 45%;
+		margin-left: 3.3%;
+		float:left;
+	}
+	.producto{
+   		margin-bottom: 1em;
+	}
+
+	.float{
+		width: 80%;
+        margin-bottom: 1em;
+		
+        box-sizing: border-box;
+	}
+    .float .finalizar{
+        margin-right: 6%;
+    }
+}
+
+/*estilos main pc*/
+@media screen and (min-width: 60em){
+	body{
+		font-size: 100%;
+	}
+	header img{
+		max-width: 90%;
+	}
+	article{
+		width: 30%;
+		margin-left: 2.5%;
+		float:left;
+	}
+
+    .float{
+        float: left;
+        border: 1px solid #ccc;
+        width: 44%;
+        margin-left:4%;
+        margin-top: 0;
+        padding-bottom: 1em;
+        
+    }
+    .float .finalizar{
+        margin-right: 5%;
+    }
+    .ancho{
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .img1{
+        width: 100%;
+    }
+    .img2{
+        position: relative;
+        left: 50;
+        margin: 20px;
+    }
+
+/*estilos footer pc*/
+    footer nav{
+		margin: 1em;
+	}
+	.footer1{	
+		width: 32%;
+		float: left;
+		text-align: center;
+    	box-sizing: border-box;
+	}
+	.footer2{
+		
+		width: 32%;
+		float: left;
+		text-align: center;
+    	box-sizing: border-box;
+	}
+	.footer3{
+		
+		width: 32%;
+		float: left;
+		text-align: center;
+    	box-sizing: border-box;
+	}
+}

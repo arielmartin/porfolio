@@ -1,0 +1,281 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+/******************* estilos mobile ******************/
+/***************  mobile first (generales) ***************/
+
+body{
+	font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+    margin:2em 0 1em 0;
+}
+
+/*estilos main generales (mobile)*/
+
+main img{
+	max-width: 100%;
+	height: auto;
+
+}
+article{
+	box-sizing: border-box;
+	max-width: 100%;
+    position:relative;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+article:hover{
+	//border: 1px solid red;
+	
+}
+article span{
+	float: right;
+	color:red;
+}
+
+aside span{
+    float: right;
+    color:red;
+}
+
+.producto p{
+    text-align: left;
+
+}
+
+.marca{
+	width: 100%;
+	margin: 20px auto;
+}
+.producto{
+    border:1px solid #b2b2b2;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    box-sizing: border-box;
+}
+.producto p{
+	text-align: left;
+}
+h2{
+	margin: 0.5em;
+	padding: 0.5em;
+	text-align: left;
+    
+}
+p{
+	margin: 10px;
+}
+section{
+	overflow: hidden;
+}
+.tachado{
+	text-decoration: line-through;
+	color: #ccc;
+}
+
+.productoaside{
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    margin-left: 4%; 
+    margin-bottom: 2em;
+    //padding: 1em;
+    width: 44%;
+    text-align-last: center;
+}
+.productoaside img{
+    border-radius: 1em;
+}
+.principal{
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-left: 4%; 
+    margin-bottom: 2em;
+    //padding: 1em;
+}
+
+.precio{
+        color: red;
+        float: left;
+        font-size: 1.5em;
+    }
+
+.clear{
+	clear:both;
+}
+.sumar{
+    position:absolute;
+    top:1px;
+    right: 1px;
+    width:8em;
+    opacity: 0.5;
+}
+.sumar:hover{
+	opacity: 1;
+}
+.oferta{
+	position:absolute;
+    bottom: 70px;
+    left:  1px;
+    width:8em;	
+}
+
+.nuevo{
+	position:absolute;
+    bottom: 50px;
+    left:  1px;
+    width:8em;	
+}
+
+.carrito{
+    background: url("../img/comprar.png") ;
+    background-size: 100% 100%;
+    width: auto;
+    //width: 12em;
+    border:none;
+    cursor:pointer;
+    padding: 1em 1em 1em 4em;
+    margin: 0em;
+    color: white;
+    //font-size: 1em;
+    float:right;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+/*estilos botones*/
+.carrito:hover{
+    //color: rgba(255, 255, 255, 1);
+    //box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    opacity: 1;
+}
+
+.finalizar{
+    background: url("../img/boton.png") ;
+    background-size: 100% 100%;
+    width: auto;
+    //width: 10em;
+    border:none;
+    cursor:pointer;
+    padding: 1em 1em;
+    margin: 0em;
+    color: white;
+    float:right;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.finalizar:hover{
+    opacity: 1;
+}
+
+
+/******************  estilos mobile de lado ***************
+
+@media screen and (min-width: 25em) and (max-width: 47em) {
+    .footer1{
+        font-size: 1.4em;
+        padding-top: em;
+    }
+    .footer2{
+        font-size: 1em;
+    }
+    .footer3 img{
+        width:25%; 
+        //border: solid blue 1px;
+    }
+} 
+/******************  estilos tablet ***************/
+
+/*main*/
+@media screen and (min-width:47em){
+
+    section{
+        width: 90%;
+        margin: auto;
+    }
+    article.principal{
+		width: 46%;
+		margin-left: 2%;
+		float:left;
+	}
+	.producto{
+   		margin-bottom: 1em;
+	}
+    
+    .productoaside{
+        float: left;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+        margin-left: 2%; 
+        margin-bottom: 2em;
+        //padding: 1em;
+        width: 30%;
+    }
+
+    .principal{
+       margin-bottom: 1em;
+    }
+
+     .precio{
+        color: red;
+        float: left;
+        font-size: 1.5em;
+    }
+    
+    
+}
+/****************** estilos pc **********************/
+
+/*estilos main pc*/
+@media screen and (min-width: 60em){
+	body{
+		font-size: 100%;
+	}
+	header img{
+		max-width: 90%;
+	}
+    .header2 input{
+        padding: 8px;
+        margin-top: 4em;
+        width: 70%;
+        border-radius: 10px;
+    }
+    
+	article{
+		width: 30%;
+		margin-left: 2.5%;
+		float:left;
+	}
+	.imagen{
+		width: 20%;
+	}
+
+    .precio{
+        color: red;
+        float: left;
+        font-size: 1.5em;
+    }
+    
+    .productoaside{
+        float: left;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        margin-left: 2%; 
+        margin-bottom: 2em;
+        //padding: 1em;
+        width: 22%;
+    }
+    
+}

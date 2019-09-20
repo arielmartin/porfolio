@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+    <title>Inicio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/autocomplete.js"></script>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <!--slider solo estas 2 lineas-->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    
+</head>
+ 
+<body>
+    <header>
+      <div class="header1">
+        <a href="index.html"><img  src="img/logo.png"></a>
+      </div>
+      <div class="header2">
+        <input  type="search" placeholder="Buscar productos" id="tags">
+      </div>
+      <div class="header3">
+        <a href="compras.html"><img  src="img/carrito.jpg"></a>
+        <spam class="contador" id="contador">0</spam>
+      </div>
+      <div class="clear"></div>
+    </header>
+    <nav class="menu-superior">
+        <ul>
+            <li><a class="active" href="index.html">&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="descripcion.html">Producto</a></li>
+            <li><a href="compras.html">Compras</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+    <!-- slider -->
+    <div id="carrusel">
+            <div><img src="img/01.jpg"></div>
+            <div><img src="img/02.png"></div>
+            <div><img src="img/03.jpg"></div>
+            <div><img src="img/04.jpg"></div>
+      </div>
+     <script>
+        $(document).ready(function(){
+          $('#carrusel').bxSlider({
+            responsive: true
+          });
+        });
+      </script>
+    <!--fin sllider-->
+        
+    <div class="clear"></div>
+        
+    <section>
+        <h2>¡ULTIMOS PRODUCTOS!</h2>
+       <article class="producto">
+          <img src="img/productos/nintendo.png">
+          <p>Nintendo Switch <span>$15000.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+          <img src="img/nuevo.png" class="nuevo" alt="">
+       </article>
+        <article class="producto">
+          <img src="img/productos/iphone.jpg">
+          <p>iPhone 8 32GB<span>$17000.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+          <img src="img/nuevo.png" class="nuevo" alt="">
+       </article>
+       <article class="producto">
+          <img src="img/productos/pen.jpg">
+          <p>Pendrive HP 16GB <span>$215.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+          <img src="img/nuevo.png" class="nuevo" alt="">
+       </article>
+    </section>
+    <section>
+         <h2>PRODUCTOS DESTACADOS</h2>
+       <article class="producto">
+          <img src="img/productos/mother.jpg">
+          <p>Mother Msi A68hm-e33 <span>$1200.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+       </article>
+        <article class="producto">
+          <img src="img/productos/procesador.jpg">
+          <p>Micro Amd Apu A4-4000 <span>$800.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+       </article>
+       <article class="producto">
+          <img src="img/productos/memoria-ram.jpg">
+          <p>Memoria RAM 4 GB <span>$800.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+       </article>
+    </section>
+    <section>
+          <h2>OFERTAS ESPECIALES</h2>
+       <article class="producto">
+          <img src="img/productos/i5.jpg">
+          <p>Intel Core i5<span>$4500.-</span></p>
+          <p><span class="tachado">$5600.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+          <img src="img/oferta.png" class="oferta" alt="">
+       </article>
+        <article class="producto">
+          <img src="img/productos/antivirus.jpg">
+          <p>Kaspersky Antivirus 2017 <span>$450.-</span></p>
+          <p><span class="tachado">$750.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+          <img src="img/oferta.png" class="oferta" alt="">
+       </article>
+       <article class="producto">
+          <img src="img/productos/amd.jpg">
+          <p>Micro Amd Apu A8 <span>$2700.-</span></p>
+          <p><span class="tachado">$3500.-</span></p>
+          <a href="#"><img class="sumar" src="img/carrito.png"></a>
+          <img src="img/oferta.png" class="oferta" alt="">
+       </article>
+       <div class="clear"></div>
+    </section>
+    <aside>
+       <h2>¡Retiralo ya! ¡Los mejores regalos para navidad!</h2>
+         <div id="carrusel2">
+            <div><img src="img/05.png"></div>
+            <div><img src="img/06.jpg"></div>
+            <div><img src="img/07.png"></div>
+            <div><img src="img/08.png"></div>
+      </div>
+     <script>
+        $(document).ready(function(){
+          $('#carrusel2').bxSlider({
+            responsive: true
+          });
+        });
+      </script>
+         </article>      
+           <div class="clear"></div>
+    </aside>
+  </main>
+  <footer class="footer">
+
+      <div class="footer1">
+        Lun a Vie 8 a 18 hs<br>
+        S&aacute;bados  9 a 14 hs<br>
+        Florencio Varera 1903
+      </div>
+     
+      <div class="footer3">
+        <a href="#" class="arriba"><img src="img/facebook.png"></a>
+        <a href="#" class="arriba"><img src="img/twitter.png"></a>
+        <a href="#" class="arriba"><img src="img/google.png"></a>
+      </div>
+
+      <div class="footer2">    
+        <nav class="menu-inferior">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="descripcion.html">Producto</a></li>
+            <li><a href="compras.html">Compras</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="clear"></div>
+  </footer>
+</body>
+</html>

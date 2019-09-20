@@ -1,0 +1,132 @@
+/****** Estilo para la tabla ******/        
+.compras{
+    width: 95%;
+    margin: auto;
+    //margin-left: 0;
+}
+.Botones  {   
+    //width: 80%;
+    min-width: 20em;
+    height:3em;
+    margin: 1em auto;
+    //padding-bottom: 2em;
+    //border:solid red;
+}
+.Table  {  
+    display: table; 
+    width: 100%;
+    //margin: 1em auto;
+    //position:relative;
+    border:solid grey 1px;
+}  
+  
+.Title  {  
+    display: table-caption;  
+    text-align: left;  
+    font-weight: bold;  
+    font-size: larger;  
+    padding: 1em 0;
+}  
+  
+.Heading {  
+    display: table-row;  
+    font-weight: bold;  
+    text-align: center;
+    height: 2em;
+}  
+.Heading .Cell p{
+    text-align: center;
+    margin: 0.1em;
+}
+.Row    {  
+    display: table-row; 
+    height: 2em;
+}  
+  
+.Cell  {  
+    display: table-cell;  
+    border: solid grey 1px;;  
+    border-width: thin;  
+    padding-left: 0px;  
+    padding-right: 0px;
+    //box-sizing: border-box;
+    width: 20%;
+}
+.Cell p{
+    text-align: right;
+    margin-top: 0.5em;
+}
+.Cell i{
+    text-align: left;
+    margin-top: 0.5em;
+}
+.Cell input{
+    width: 3em;
+    text-align: center;
+    font-size: 70%;
+    margin:auto;
+}
+
+.First{
+    width: 40%;
+}
+
+/****************** estilos pc **********************/
+
+/*estilos tabla pc*/
+@media screen and (min-width: 60em){
+	body{
+		font-size: 100%;
+	}
+    .compras{
+        width: 100%;
+        //margin-left: 5%;
+        min-height: 34em;
+        margin: auto;
+    }
+    .Botones  {   
+        width: 90%;
+        min-width: 20em;
+        height:3em;
+        margin: 1em auto;
+        //padding-bottom: 2em;
+        //border:solid red;
+    }
+    .Table  {  
+        display: table; 
+        width: 90%;
+        margin: 1em auto;
+        //position:relative;
+        border:solid grey 1px;
+    }  
+
+    .Heading {  
+        display: table-row;  
+        font-weight:normal;  
+        text-align: center;
+        font-size: 120%;
+    }  
+    .Row    {  
+        display: table-row; 
+        height: 2.5em;
+    }  
+    .Cell{
+        width: 16%;
+    }
+    .Cell p{
+        text-align: right;
+        margin-top: 1em;
+    }
+    .Cell i{
+        text-align: left;
+        margin-top: 1em;
+    }
+    .Cell input{
+        width: 5em;
+        text-align: center;
+        font-size: 1em;
+    }
+    .First{
+        width: 52%;
+    }
+}

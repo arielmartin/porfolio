@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+    <title>Contacto</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos_contacto.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/autocomplete.js"></script>
+
+    <script src="js/validacion.js"></script>
+   <!-- <script src="js/validacionjquery.js"></script>-->
+
+    <script>
+      $( function() {
+    $( "#datepicker" ).datepicker();
+      } );
+    </script>
+
+         
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+</head>
+ 
+<body>
+    <header>
+      <div class="header1">
+        <a href="index.html"><img  src="img/logo.png"></a>
+      </div>
+      <div class="header2">
+        <input  type="search" placeholder="Buscar productos" id="tags">
+      </div>
+      <div class="header3">
+        <a href="compras.html"><img  src="img/carrito.jpg"></a>
+        <spam class="contador">5</spam>
+      </div>
+      <div class="clear"></div>
+    </header>
+    <nav class="menu-superior">
+        <ul>
+            <li><a href="index.html">&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;</a></li>
+            <li><a href="descripcion.html">Producto</a></li>
+            <li><a href="compras.html">Compras</a></li>
+            <li><a class="active" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+   
+    <main class="contenedor">
+         
+      <h2>Contacto</h2>
+      <section class="float">
+
+        <form action="" onsubmit="return validar()">
+            <input type="text" class="ancho" name="nombre" id="nombre" placeholder="Ingrese su nombre" title="Este campo debe tener entre 10 y 20 caracteres">
+
+            <input type="text" class="ancho" name="apellido" id="apellido" placeholder="Ingrese su apellido" title="Este campo debe tener entre 10 y 20 caracteres">
+      
+            <input type="text" class="ancho" name="dni" id="dni" placeholder="Ingrese su dni">
+
+            <input type="text" class="ancho" id="datepicker" placeholder="Ingrese su fecha de nacimiento">
+      
+            <input type="email" class="ancho" name="email" id="email" placeholder="ejemplo@ejemplo.com.ar">
+
+            <textarea class="ancho" placeholder="Ingrese un mensaje" id="comentario"></textarea>
+
+            <input type="submit" class="finalizar" value="Enviar">
+        </form>
+        <div class="error" id="mensaje"></div>
+         <script>
+      function initMap() {
+        var uluru = {lat: -34.669886, lng: -58.562605};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC13P3tompM1SptyfqENVz9anAyR5MGVBg&callback=initMap">
+    </script>
+      </section>
+
+      <section class="float">
+        <h2>¡Contactanos!</h2>
+        <p><span>Teléfonos de contacto:</span></p>
+        <p>5340-5000 / 5002</p>
+        <p><span>Dias y horarios Call Center:</span></p>
+        <p>Lunes a Viernes 8:00hs a 18:00hs</p>
+        <p>Sábado 9:00hs a 14:00hs</p>
+        <p><span>Consulta via Email:</span></p>
+        <p><a href="mailto:consulta@e-commerce.com">consulta@e-commerce.com</a></p>
+      </section>
+  
+      <section class="mapa">
+        <div id="map"></div>
+      </section>
+      
+    </main>
+     
+  <footer class="footer">
+
+      <div class="footer1">
+        Lun a Vie 8 a 18 hs<br>
+        S&aacute;bados  9 a 14 hs<br>
+        Florencio Varera 1903
+      </div>
+     
+      <div class="footer3">
+        <a href="#" class="arriba"><img src="img/facebook.png"></a>
+        <a href="#" class="arriba"><img src="img/twitter.png"></a>
+        <a href="#" class="arriba"><img src="img/google.png"></a>
+      </div>
+
+      <div class="footer2">    
+        <nav class="menu-inferior">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="descripcion.html">Producto</a></li>
+            <li><a href="compras.html">Compras</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="clear"></div>
+  </footer>
+</body>
+</html>

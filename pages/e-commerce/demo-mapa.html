@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+    <title>Titulo de la web</title>
+    <meta charset="utf-8">
+    <!--<link rel="stylesheet" href="css/estilos_contacto.css">-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+    
+</head>
+ 
+<body>
+    <header>
+      <div class="header1">
+        <img  src="img/logo.png">
+      </div>
+      <div class="header2">
+        <input  type="search">
+      </div>
+      <div class="header3">
+        <img  src="img/carrito.jpg">
+      </div>
+      <div class="clear"></div>
+    </header>
+    <nav class="menu-superior">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="descripcion.html">Producto</a></li>
+            <li><a href="compras.html">Compras</a></li>
+            <li><a class="active" href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="contenedor">
+    <main>
+        <section>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -34.671, lng: -58.563};//-34.6722216,-58.5681654
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+        
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVl4WXgUTwXEeYlY4bkUlaHrUhhcMMLyU&callback=initMap">
+    </script>
+        
+        </section>
+    </main>
+  <footer class="footer">
+
+      <div class="footer1">
+        Horario: 8 a 22 hs<br>
+        Direccion: Florencio Varera 1903
+      </div>
+     
+      <div class="footer3">
+        <a href="#" class="arriba"><img src="img/facebook.png"></a>
+        <a href="#" class="arriba"><img src="img/twitter.png"></a>
+        <a href="#" class="arriba"><img src="img/google.png"></a>
+      </div>
+
+      <div class="footer2">    
+        <nav class="menu-inferior">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="descripcion.html">Producto</a></li>
+            <li><a href="compras.html">Compras</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="clear"></div>
+  </footer>
+</body>
+</html>
