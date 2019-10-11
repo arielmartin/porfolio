@@ -5,6 +5,7 @@
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	fondos de las imagenes: linea 2740
 */
 
 html, body, div, span, applet, object,
@@ -2312,7 +2313,7 @@ input, select, textarea {
 
 	.image {
 		border-radius: 4px;
-		border: 0;
+		border: 0 ;
 		display: inline-block;
 		position: relative;
 	}
@@ -2638,7 +2639,7 @@ input, select, textarea {
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
-					opacity: 0.25;
+					opacity: 1;
 					z-index: 2;
 				}
 
@@ -2683,6 +2684,8 @@ input, select, textarea {
 
 				.tiles article > a:hover {
 					color: #ffffff !important;
+					font-size: 1.2em;
+					font-weight: bold; 
 				}
 
 				.tiles article > a h2 {
@@ -2737,8 +2740,8 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.35;
+					background-color: #585858;
+					opacity: 0.9;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -2759,7 +2762,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.9);
 			-ms-transform: scale(0.9);
 			transform: scale(0.9);
-			opacity: 0;
+			opacity: 1;
 		}
 
 		body.is-touch .tiles article .content {
