@@ -27,7 +27,7 @@ var subtitulo2 = "Cosas que puedo hacer";
 var parrafo2 = "";
 
 var subtitulo3 = "Algunos de mis proyectos";
-var parrafo3 = "Estos son algunos trabajos que he echo para mi o para terceros. Algunos de manera personal y otros en equipo.";
+var parrafo3 = "Estos son algunos trabajos que he hecho para mí o para terceros. Algunos de manera personal y otros en equipo.";
 
 var subtitulo4 = "Contacto";
 var parrafo4 = "";
