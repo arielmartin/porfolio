@@ -1982,7 +1982,39 @@ input, select, textarea {
 
 			.icon.featured:before {
 				font-size: 6em;
-			}
+		}
+
+
+	.icono:before {
+			font-weight: 400;
+		}
+
+		.icono:before {
+			font-size: 1.25em;
+		}
+
+		.icono > .label {
+			display: none;
+		}
+
+		.icono.solid:before {
+			font-weight: 900;
+		}
+
+		.icono.brands:before {
+			font-family: 'Font Awesome 5 Brands';
+		}
+
+		.icono.featured {
+			color: #EA8A95;
+			display: block;
+			margin: 0 0 1.5em 0;
+			cursor: default;
+		}
+
+			.icono.featured:before {
+				font-size: 6em;
+		}
 
 /* Wrappers */
 
