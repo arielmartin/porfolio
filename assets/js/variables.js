@@ -39,16 +39,19 @@ var parrafo4 = "";
 var image1 = "images/gc.jpg"; 
 var alt1 = "imagen de Gastronomia Casanova";
 var url1 = "https://gastronomiacasanova.000webhostapp.com/";
+var source1 = "https://github.com/arielmartin80/gastronomiacasanova";
 
 //proyeto 2
 var image2 = "images/ecommerce.jpg";
 var alt2 = "imagen de E-commere";
 var url2 = "pages/e-commerce/index.html";
+var source2 = "https://github.com/arielmartin/porfolio/tree/master/pages/e-commerce";
 
 //proyeto 3
 var image3 = "images/credivi.jpg";
 var alt3 = "imagen del sitio Credivi";
 var url3 = "https://credivi.github.io/marketing/";
+var source3 = "https://github.com/credivi/marketing";
 
 //redes
 var facebook = "https://www.facebook.com/";
@@ -109,8 +112,14 @@ $(document).ready(function() {
 //links
 $(document).ready(function() {
    $("#url1").attr("href", url1);
+   $(".source1").attr("href", source1);
    $("#url2").attr("href", url2);
+   $(".source2").attr("href", source2);
    $("#url3").attr("href", url3);
+   $(".source3").attr("href", source3);
+   $(".source1").text(source1);
+   $(".source2").text(source2);
+   $(".source3").text(source3);
 });
 
 //imagenes
