@@ -117,9 +117,9 @@ $(document).ready(function() {
    $(".source2").attr("href", source2);
    $("#url3").attr("href", url3);
    $(".source3").attr("href", source3);
-   $(".source1").text("Ver codigo fuente");
-   $(".source2").text("Ver codigo fuente");
-   $(".source3").text("Ver codigo fuente");
+   $(".source1").text("Ver código fuente");
+   $(".source2").text("Ver código fuente");
+   $(".source3").text("Ver código fuente");
 });
 
 //imagenes
