@@ -1,5 +1,10 @@
 /*slider automatico*/
 
+#carrusel{
+    border: solid red;
+    margin: 0 auto;
+}
+
 .section-slider{
     overflow: hidden;
 }
