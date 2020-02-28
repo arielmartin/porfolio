@@ -1,6 +1,6 @@
 /*slider automatico*/
 
-#carrusel img{
+#carrusel img, #carrusel2 img{
     margin: 0 auto;
 }
 
