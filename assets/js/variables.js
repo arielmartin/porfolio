@@ -12,7 +12,7 @@ var avatar = "images/am.png";
 //menu
 var one = "Home";
 var two = "Aptitudes";
-var three = "Trabajos";
+var three = "Proyectos";
 var four = "Contacto";
 
 //TEXTOS 
