@@ -125,11 +125,10 @@ $(document).ready(function() {
    $(".source3").attr("href", source3);
    $("#url4").attr("href", url4);
    $(".source4").attr("href", source4);
-
    $(".source1").text("Ver código fuente");
    $(".source2").text("Ver código fuente");
    $(".source3").text("Ver código fuente");
-   $(".source4").text("Ver código fuente");
+   $(".source4").text("Ver código fuente")
 });
 
 //imagenes
