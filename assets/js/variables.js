@@ -53,6 +53,12 @@ var alt3 = "imagen del sitio Credivi";
 var url3 = "https://credivi.github.io/marketing/";
 var source3 = "https://github.com/credivi/marketing";
 
+//proyeto 4
+var image4 = "images/evaluate.jpg";
+var alt4 = "imagen del sitio evaluate";
+var url4 = "https://evaluacionpersonal.000webhostapp.com/view/home_empleado.php";
+var source4 = "https://github.com/arielmartin/evaluate";
+
 //redes
 var facebook = "https://www.facebook.com/";
 var instagram = "https://www.instagram.com/";
@@ -117,9 +123,13 @@ $(document).ready(function() {
    $(".source2").attr("href", source2);
    $("#url3").attr("href", url3);
    $(".source3").attr("href", source3);
+   $("#url4").attr("href", url4);
+   $(".source4").attr("href", source4);
+
    $(".source1").text("Ver código fuente");
    $(".source2").text("Ver código fuente");
    $(".source3").text("Ver código fuente");
+   $(".source4").text("Ver código fuente");
 });
 
 //imagenes
@@ -128,6 +138,7 @@ $(document).ready(function() {
    $("#image1").attr("src",image1).attr("alt",alt1);
    $("#image2").attr("src",image2).attr("alt",alt2);
    $("#image3").attr("src",image3).attr("alt",alt3);
+   $("#image4").attr("src",image4).attr("alt",alt4);
 });
 
 //Fomulario
