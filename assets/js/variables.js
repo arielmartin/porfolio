@@ -59,6 +59,14 @@ var alt4 = "imagen del sitio evaluate";
 var url4 = "https://evaluacionpersonal.000webhostapp.com/view/home_empleado.php";
 var source4 = "https://github.com/arielmartin/evaluate";
 
+//proyeto 5
+var image5 = "images/codigo.jpg";
+var alt5 = "imagen de codigo";
+var url5 = "https://github.com/arielmartin80/helper_sql/blob/master/helper_sql.php";
+var source5 = "https://github.com/arielmartin80/helper_sql/blob/master/helper_sql.php";
+
+
+
 //redes
 var facebook = "https://www.facebook.com/";
 var instagram = "https://www.instagram.com/";
@@ -125,10 +133,13 @@ $(document).ready(function() {
    $(".source3").attr("href", source3);
    $("#url4").attr("href", url4);
    $(".source4").attr("href", source4);
+   $("#url5").attr("href", url5);
+   $(".source5").attr("href", source5);
    $(".source1").text("Ver código fuente");
    $(".source2").text("Ver código fuente");
    $(".source3").text("Ver código fuente");
-   $(".source4").text("Ver código fuente")
+   $(".source4").text("Ver código fuente");
+   $(".source5").text("Ver código fuente")
 });
 
 //imagenes
@@ -138,6 +149,7 @@ $(document).ready(function() {
    $("#image2").attr("src",image2).attr("alt",alt2);
    $("#image3").attr("src",image3).attr("alt",alt3);
    $("#image4").attr("src",image4).attr("alt",alt4);
+   $("#image5").attr("src",image5).attr("alt",alt5)
 });
 
 //Fomulario
@@ -145,6 +157,6 @@ $(document).ready(function() {
    $("#form").attr("action",action);
    $("#name").attr("name",name);
    $("#emailAddress").attr("name",emailAddress);
-   $("#message").attr("name",message);
+   $("#message").attr("name",message)
 });
 
