@@ -65,6 +65,12 @@ var alt5 = "imagen de codigo";
 var url5 = "https://github.com/arielmartin80/helper_sql/blob/master/helper_sql.php";
 var source5 = "https://github.com/arielmartin80/helper_sql/blob/master/helper_sql_v2.php";
 
+//proyeto 6
+var image6 = "images/nutricion.jpg";
+var alt6 = "imagen de proyecto nutricion";
+var url6 = "https://github.com/arielmartin/control-nutricional";
+var source6 = "https://github.com/arielmartin/control-nutricional";
+
 
 
 //redes
@@ -135,11 +141,14 @@ $(document).ready(function() {
    $(".source4").attr("href", source4);
    $("#url5").attr("href", url5);
    $(".source5").attr("href", source5);
+   $("#url6").attr("href", url6);
+   $(".source6").attr("href", source6);
    $(".source1").text("Ver código fuente");
    $(".source2").text("Ver código fuente");
    $(".source3").text("Ver código fuente");
    $(".source4").text("Ver código fuente");
-   $(".source5").text("Ver código fuente")
+   $(".source5").text("Ver código fuente");
+   $(".source6").text("Ver código fuente")
 });
 
 //imagenes
@@ -149,7 +158,8 @@ $(document).ready(function() {
    $("#image2").attr("src",image2).attr("alt",alt2);
    $("#image3").attr("src",image3).attr("alt",alt3);
    $("#image4").attr("src",image4).attr("alt",alt4);
-   $("#image5").attr("src",image5).attr("alt",alt5)
+   $("#image5").attr("src",image5).attr("alt",alt5);
+   $("#image6").attr("src",image6).attr("alt",alt6)
 });
 
 //Fomulario
