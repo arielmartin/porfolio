@@ -215,7 +215,7 @@ $(document).ready(function() {
 var facebook = "";
 var instagram = "";
 var youtube = "";
-var whatsapp = "https://api.whatsapp.com/send?phone=5491157673825&text=Ud se está contactando con Ariel Martin, Desarrollador Web";
+var whatsapp = "https://api.whatsapp.com/send?phone=5491157673825&text=Ud se está contactando con Ariel Martin, Desarrollador Web. \"https://arielmartin.ml\"";
 var mailto = "mailto:arielmartin80@gmail.com";
 var github = "https://github.com/arielmartin80/";
 var gitlab = "https://gitlab.com/arielmartin80/";
