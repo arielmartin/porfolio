@@ -38,7 +38,6 @@ var titulo1 = "";
 var subtitulo1 = "";
 var parrafo1 ="";
 
-
 var subtitulo2 = "Cosas que puedo hacer"; 
 var parrafo2 = "";
 
@@ -63,8 +62,6 @@ $(document).ready(function() {
    $(".subtitulo4").text(subtitulo4);
    $(".parrafo4").text(parrafo4);
 });
-
-
 
 
 //Descripcion proyectos:
