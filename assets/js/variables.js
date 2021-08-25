@@ -71,7 +71,7 @@ var title1 = "Gastronomia Casanova";
 var par1 = "";
 var image1 = "images/gc.jpg"; 
 var alt1 = "imagen de Gastronomia Casanova";
-var url1 = "https://gastronomiacasanova.000webhostapp.com/";
+var url1 = "https://gastronomiacasanova2.000webhostapp.com/";
 var source1 = "https://github.com/arielmartin80/gastronomiacasanova";
 
 $(document).ready(function() {
@@ -122,7 +122,7 @@ var title4 = "Evaluate";
 var par4 = "";
 var image4 = "images/evaluate.jpg";
 var alt4 = "imagen del sitio evaluate";
-var url4 = "https://evaluacionpersonal.000webhostapp.com/view/home_empleado.php";
+var url4 = "https://evaluate2.000webhostapp.com/view/home_empleado.php";
 var source4 = "https://github.com/arielmartin/evaluate";
 
 $(document).ready(function() {
