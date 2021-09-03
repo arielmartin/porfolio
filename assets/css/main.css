@@ -1974,7 +1974,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #3ba8d3;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2006,7 +2006,7 @@ input, select, textarea {
 		}
 
 		.icono.featured {
-			color: #EA8A95;
+			color: #3ba8d3;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2014,6 +2014,9 @@ input, select, textarea {
 
 			.icono.featured:before {
 				font-size: 6em;
+		}
+		h3{
+			color: #3ba8d3;
 		}
 
 /* Wrappers */
